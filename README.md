@@ -1,7 +1,7 @@
 # sjwp\_Dubac\_Martin
 
 So we're in copper
-Platinum 5-45rp
+gold 1-24 rp
 
 \#TŠSB
 
