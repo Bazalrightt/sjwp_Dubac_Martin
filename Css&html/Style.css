@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    border: 2px solid;
+    background-image: url("londonbridge.png");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    background: linear-gradient(to right, red, lime);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: "press Start 2P","consolas";
+    border-style: double ;
+    border-width:20px ;
+    border-top: 10px;
+    border-left-color: aquamarine   ;
+}
+p{
+background-color: gray;
+color: brown;
+font-family: 'Fraktur' ;
+font-style: italic;
+font-size: medium;
+}
+#p1{
+    color: cadetblue ;
+}
+#p2{
+    color: burlywood;
+}
+.odd{
+color: red;
+}
+.even{
+    background-color: yellow;
+}
+#box1{
+    padding: 40px;
+    margin-top: 150px;
+    margin-left: 50px;
+border: 5px solid;
+width: 250px;
+height: 250px;
+font-size: medium;
+background-color: white;
+margin-left: 50%;
+}
+#box2{
+border: 5px solid;
+width: 250px;
+height: 250px;
+font-size: medium;
+background-color: brown;
+margin-left: auto;
+margin-right: auto;
+}
+#BoxA{
+    position: relative;
+    border: 1px solid;
+        height: 300px;
+        width: 300px;
+        background-color: aqua;
+        top: 10px;
+        bottom: 0px;
+        position: sticky;
+}
+#BoxB{
+border: 1px solid;
+height: 150px;
+width: 150px;
+background-color: lime;
+top:75px;
+left: 75px;
+position: absolute;
+}
