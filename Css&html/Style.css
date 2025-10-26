@@ -29,7 +29,9 @@ background-color: #ffffff;
     height: 100px;
     
 }
-#Zaglavlje1,
+
+
+ #Zaglavlje1,
 #Zaglavlje1:visited,
 #Zaglavlje1:active {
     font-size: large;
@@ -59,18 +61,21 @@ background-color: #ffffff;
 color: white;
 background-color: white;
 }
-/* #Zaglavlje1:current{
+ #Zaglavlje1:current{
     text-decoration: none;
     cursor: pointer;
     color: white;
 }
- */
 
- #Zaglavlje1:link{
+
+  #Zaglavlje1:link{
 color: white;
   background-color: transparent;
   text-decoration: none;
-        }
+        } 
+  
+
+
 
 #Zaglavlje2{
 z-index: 10001;
