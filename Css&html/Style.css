@@ -1,7 +1,7 @@
 body{
 background-color: #ffffff;
 }
-#CrniBoxZaZaglavlje {
+#CrniBoxZaZaglavlje{
     position: fixed;
     top: 0;
     left: 0;
@@ -11,29 +11,22 @@ background-color: #ffffff;
     z-index: 9999;
     display: flex;
     align-items: center;
-    padding-left: 150px; /* prostor za logo */
 }
-
-#Logo {
+#SteamLogo{
     position: absolute;
     top: 15px;
-    left: 40px;
+    left: 200px;
     width: 100px;
     height: 100px;
 }
-#fflogo {
+#FFLogo{
     position: absolute;
     top: 15px;
-    left: 150px;
-    width: 350px;
+    left: 390px;
+    width: 300px;
     height: 100px;
-    
 }
-
-
- #Zaglavlje1,
-#Zaglavlje1:visited,
-#Zaglavlje1:active {
+#Zaglavlje1{
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-decoration: none;
@@ -46,38 +39,17 @@ background-color: #ffffff;
     cursor: pointer;
     box-shadow: 0 0 0 rgba(255, 255, 255, 0);
     position: fixed;
-    top: 45px;
-    left: 150px;
+ /*   top: 45px;  */
+    /* left: 150px; */
     z-index: 10000;
-    margin-left: 350px;
+    margin-left: 750px; 
 }
-
 #Zaglavlje1:hover {
     color: white; 
     border-color: white;
     box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.8);
 }
-#Zaglavlje1:link{
-color: white;
-background-color: white;
-}
- #Zaglavlje1:current{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-}
-
-
-  #Zaglavlje1:link{
-color: white;
-  background-color: transparent;
-  text-decoration: none;
-        } 
-  
-
-
-
-#Zaglavlje2{
+#Zaglavlje2 {
 z-index: 10001;
 font-size: large;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -91,9 +63,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     box-shadow: 0 0 0 rgba(255, 255, 255, 0);
     position: fixed;
-    top: 45px;
-    left: 150px;
-    margin-left: 480px;
+    /* top: 45px; */
+  /*  left: 150px;  */
+    margin-left: 900px;
 }
 #Zaglavlje2:hover {
     color: white; 
@@ -101,129 +73,111 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.8);
 }
 
-#BGSlika {
-    position:absolute;
-   
-    width: 100vw;
-    height: 650px;
-    margin: 0;
-    padding: 0;
+#Zaglavlje3{
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+ color: white;
+    border: 2px solid transparent;
+    padding: 11px 29px;
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration:none;
+z-index: 10001;
+margin-left: 1050px;
+/* top: 45px; */
+/* left: 150px; */
+}
+#Zaglavlje3:hover{
+ box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.8);
+border-color: white;
+color: white;
+}
+.Par{
+ /*  top: 45px; */
+} 
+#Zaglavlje4{
+    z-index: 10001;
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    padding: 11px 29px;
+    border-radius: 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    position: fixed;
+   /*  top: 45px; */
+   /*  left: 150px; */
+    margin-left: 1200px;
+}
+#Zaglavlje4:hover{
+    
+ box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.8);
+border-color: white;
+color: white;
+}
+#Zaglavlje5{
+ z-index: 10001;
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    padding: 11px 29px;
+    border-radius: 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    position: fixed;
+   /*  top: 45px; */
+   /*  left: 150px; */
+    margin-left: 1370px;
+}
+#Zaglavlje5:hover{
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.8);
+border-color: white;
+color: white;
+}
+#BGS{
+position: absolute;
+width: 100vw;
+height: 750px;
+margin: 0;
+ padding: 0;
     display: flex;
     top: 0;
     left: 0;
     margin-top: 130px;
     opacity: 0;
   animation: fadeIn 1.5s ease-in forwards; 
-  filter: contrast(120%) brightness(100%) saturate(110%);
+ /*  filter: contrast(120%) brightness(100%) saturate(110%); */
 }
-
-
-
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
-    }
+    } 
 }
-#Zaglavlje3{
-
-    
+#PIL {
+    position: fixed;
+    top: 880px; /* 750px + 130px */
+    left: 0;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(138, 36, 36);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
 }
 
-/* #Text1{
-font-size: large;
-} */
-/* Ice Cold: #a0d2eb
-
-Freeze Purple: #e5eaf5
-
-Medium Purple: #d0bdf4
-
-Purple Pain: #8458B3
-
-Heavy Purple: #a28089 */
 
 
 
-/* body {
-    margin: 0px;
-    border: 2px solid;
-    background-image: url("londonbridge.png");
-    background-size: cover ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
-h1{
-    background: linear-gradient(to right, red, lime);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    font-family: "press Start 2P","consolas";
-    border-style: double ;
-    border-width:20px ;
-    border-top: 10px;
-    border-left-color: aquamarine   ;
-}
-p{
-background-color: gray;
-color: brown;
-font-family: 'Fraktur' ;
-font-style: italic;
-font-size: medium;
-}
-#p1{
-    color: cadetblue ;
-}
-#p2{
-    color: burlywood;
-}
-.odd{
-color: red;
-}
-.even{
-    background-color: yellow;
-}
-#box1{
-    padding: 40px;
-    margin-top: 150px;
-    margin-left: 50px;
-border: 5px solid;
-width: 250px;
-height: 250px;
-font-size: medium;
-background-color: white;
-margin-left: 50%;
-}
-#box2{
-border: 5px solid;
-width: 250px;
-height: 250px;
-font-size: medium;
-background-color: brown;
-margin-left: auto;
-margin-right: auto;
-}
-#BoxA{
-    position: relative;
-    border: 1px solid;
-        height: 300px;
-        width: 300px;
-        background-color: aqua;
-        top: 10px;
-        bottom: 0px;
-        position: sticky;
-}
-#BoxB{
-border: 1px solid;
-height: 150px;
-width: 150px;
-background-color: lime;
-top:75px;
-left: 75px;
-position: absolute;
-}
- */
