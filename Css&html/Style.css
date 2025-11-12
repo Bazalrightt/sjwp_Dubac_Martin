@@ -170,9 +170,9 @@ margin: 0;
     top: 880px; /* 750px + 130px */
     left: 0;
     width: 100vw;
-    height: 500px;
+    height: 1000px;
     background-color: rgb(138, 36, 36);
-    z-index: 9999;
+    z-index: 10003;
     display: flex;
     align-items: center;
 }
