@@ -1,0 +1,12 @@
+h1{
+   font-family: "Libre Baskerville", serif; 
+   color: aliceblue;
+   text-align: center;
+
+}
+
+#Slika{
+width: 50%;
+margin-left: 25%;
+border: 5px solid white;
+}
