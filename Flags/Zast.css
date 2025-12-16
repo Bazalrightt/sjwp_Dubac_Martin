@@ -1,0 +1,230 @@
+.plava{
+    width: 500px;
+    height: 350px;
+    background-color: blue;
+    position: relative;
+}
+
+.crvh{
+    width: 500px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+.crvv{
+    width: 50px;
+    height: 350px;
+    background-color: red;
+    position: absolute;
+    left: 120px;
+    z-index: 2;
+}
+.bjlh{
+    width: 500px;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+}
+.bjlv{
+    width: 110px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    left: 90px;
+    z-index: 1;
+}
+.pl{
+    width: 500px;
+    height: 350px;
+    background-color: #00A9CE;
+    position: relative;
+}
+.t{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left:  175px solid black;
+    border-top:  175px solid transparent;
+    border-bottom: 175px solid transparent;
+    z-index: 2;
+}
+.z{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    background-color: #fdda25;
+    z-index: 1;
+    top: 120px;
+}
+.c{
+    width: 500px;
+    height: 320px;
+    background-color: darkred;
+    position: relative;
+}
+.b{
+    width: 100px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+}
+.bt{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 75px solid white;
+    border-top: 40px solid  transparent;
+    border-bottom: 40px solid transparent;
+    left: 100px;
+}
+.a{
+      width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 75px solid white;
+    border-top: 40px solid  transparent;
+    border-bottom: 40px solid transparent;
+    left: 100px;
+    top: 80px;
+}
+.bb{
+      width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 75px solid white;
+    border-top: 40px solid  transparent;
+    border-bottom: 40px solid transparent;
+    left: 100px;
+    top: 160px;
+}
+.cc{
+      width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 75px solid white;
+    border-top: 40px solid  transparent;
+    border-bottom: 40px solid transparent;
+    left: 100px;
+    top: 240px;
+}
+.zvijezda{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+}
+.Ca{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+}
+.ze{
+    width: 166px;
+    height: 350px;
+    background-color: #007A5E;
+    position: absolute;
+    z-index: 1;
+
+}
+.cr{
+    width: 166px;
+    height: 350px;
+    background-color: #CF1126;
+    position: absolute;
+    z-index: 1;
+    left: 166px;
+}
+.zu{
+    width: 166px;
+    height: 350px;
+    background-color: #FCD116;
+    position: absolute;
+    z-index: 1;
+    left: 332px;
+}
+.zv{
+     width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #FCD116;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    left: 195px;
+    top: 120px;
+    z-index: 2;
+}
+.crpoz{
+    width: 500px;
+    height: 350px;
+    background-color: red;
+    position: relative;
+    z-index: 0;
+}
+.bk{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 50px;
+}
+.ck{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    left: 90px;
+    top: 70px;
+}
+.bz{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    left: 300px;
+    top: 100px;
+    transform: rotate(-20deg);
+}
