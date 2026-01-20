@@ -1,0 +1,7 @@
+.phs{
+width: 200px;
+height: 300px;
+position: relative;
+z-index: 2;
+background-color: gray;
+}
