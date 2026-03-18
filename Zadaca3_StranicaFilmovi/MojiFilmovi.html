@@ -3,19 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Početna stranica</title>
+    <title>Moja Galerija</title>
     <link rel="stylesheet" href="Izgled.css">
 </head>
 <body>
-    <nav class="Navbar">
-<ul>
-    <li><a href="">Filmovi</a></li>
-    <li><a href="">Serije</a></li>
-    <li><a href="">Dokumentarci</a></li>
-    <li><a href="">Igrice</a></li>
-    
-</ul>
 
-    </nav>
+<nav class="navbar">
+    <div class="nav-left">
+        <img src="./5400a5db5878e8084aba5e27e36cbea6.jpg" alt="Logo" class="logo-icon">
+        <span class="brand-name">Martin's Gallery</span>
+    </div>
+    <div class="nav-right">
+        <ul class="nav-links">
+    <li><a href="#" onclick="prikazi('films')">Films</a></li>
+    <li><a href="#" onclick="prikazi('series')">Series</a></li>
+    <li><a href="#" onclick="prikazi('docs')">Documentaries</a></li>
+</ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+</nav>
+<main class="content">
+    <div class="movie-grid" id="movie-grid">
+        <!-- Repeat this block 20 times -->
+        <a href="https://www.imdb.com/title/tt8999762/" target="_blank" class="movie-card">
+            <img src="./brutalist.jpg" alt="brutalist">
+            <span class="movie-title">The Brutalist</span>
+        </a>
+        <a href="https://www.imdb.com/es/title/tt0169858/" target="_blank" class="movie-card">
+            <img src="./Evangelion.jpg" alt="Evangelion">
+            <span class="movie-title">Neon Genesis Evangelion: The End of Evangelion</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt8579674/" target="_blank" class="movie-card">
+            <img src="./1917.jpg" alt="1917">
+            <span class="movie-title">1917</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt0361748/" target="_blank" class="movie-card">
+            <img src="./ingloriousbasterds.jpg" alt="ingloriousbasterds">
+            <span class="movie-title">Inglorious Basterds</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt1016150/" target="_blank" class="movie-card">
+            <img src="./allquietonthewesternfront.jpg" alt="allquietonthewesternfront">
+            <span class="movie-title">All Quiet On The Western Front</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt1645170/" target="_blank" class="movie-card">
+            <img src="./thedictator.jpg" alt="thedictator">
+            <span class="movie-title">The Dictator</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt1323594/" target="_blank" class="movie-card">
+            <img src="./Despicableme.jpg" alt="Despicableme">
+            <span class="movie-title">Despicable Me</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt14205554/" target="_blank" class="movie-card">
+            <img src="./kpopdenonhunters.jpg" alt="kpopdenonhunters">
+            <span class="movie-title">KPoP Demon Hunters</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt7286456/" target="_blank" class="movie-card">
+            <img src="./joker.jpg" alt="joker">
+            <span class="movie-title">Joker</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt0816692/" target="_blank" class="movie-card">
+            <img src="./interstellar.jpg" alt="interstellar">
+            <span class="movie-title">Interstellar</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt7078180/" target="_blank" class="movie-card">
+            <img src="./VioletEvergarden.jpg" alt="VioletEvergarden">
+            <span class="movie-title">Violet Evergarden</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt0257106/" target="_blank" class="movie-card">
+            <img src="./Scarymovie2.jpg" alt="Scarymovie2">
+            <span class="movie-title">Scary Movie 2</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt10521092/" target="_blank" class="movie-card">
+            <img src=".//theforgottenbattle.jpg" alt="theforgottenbattle">
+            <span class="movie-title">The Forgotten Battle</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt0068646/" target="_blank" class="movie-card">
+            <img src="./godfather.jpg" alt="godfather">
+            <span class="movie-title">The Godfather</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt1210166/" target="_blank" class="movie-card">
+            <img src="./moneyball.jpg" alt="moneyball">
+            <span class="movie-title">Moneyball</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt9243946/" target="_blank" class="movie-card">
+            <img src=".//elcamino.jpg" alt="elcamino">
+            <span class="movie-title">El Camino</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt21692408/" target="_blank" class="movie-card">
+            <img src="./kungfupanda4.jpg" alt="kungfupanda4">
+            <span class="movie-title">Kung Fu Panda 4</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt10687116/" target="_blank" class="movie-card">
+            <img src="./entergalactic.jpg" alt="entergalactic">
+            <span class="movie-title">Entergalactic</span>
+        </a>
+        <a href="https://www.imdb.com/title/tt5090568/" target="_blank" class="movie-card">
+            <img src="./transformersriseofthebeast.jpg" alt="transformersriseofthebeast">
+            <span class="movie-title">Transformers: Rise Of The Beast </span>
+        </a>
+        <a href="https://www.imdb.com/title/tt28717062/" target="_blank" class="movie-card">
+            <img src="./evangeliondeath22.jpg" alt="evangeliondeath22">
+            <span class="movie-title">Neon Genesis Evangelion: Death & Rebirth</span>
+        </a>
+        <!-- Add 19 more items here -->
+    </div>
+</main>
+
 </body>
 </html>
