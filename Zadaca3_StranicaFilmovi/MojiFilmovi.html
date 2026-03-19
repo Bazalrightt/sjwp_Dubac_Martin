@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Galerija</title>
+    <title>Moja Galerija - Filmovi</title>
     <link rel="stylesheet" href="Izgled.css">
 </head>
 <body>
@@ -15,18 +15,20 @@
     </div>
     <div class="nav-right">
         <ul class="nav-links">
-    <li><a href="#" onclick="prikazi('films')">Films</a></li>
-    <li><a href="#" onclick="prikazi('series')">Series</a></li>
-    <li><a href="#" onclick="prikazi('docs')">Documentaries</a></li>
+     <!-- Link ka samom sebi -->
+    <li><a href="MojiFilmovi.html">Films</a></li> 
+    <!-- Link koji vodi na stranicu sa serijama -->
+    <li><a href="MojeSerije.html">Series</a></li> 
+    <li><a href="MojeIgre.html">Video Games</a></li>
 </ul>
         <div class="search-box">
-            <input type="text" placeholder="Search...">
+            <input type="text" placeholder="Search Films...">
         </div>
     </div>
 </nav>
 <main class="content">
     <div class="movie-grid" id="movie-grid">
-        <!-- Repeat this block 20 times -->
+        
         <a href="https://www.imdb.com/title/tt8999762/" target="_blank" class="movie-card">
             <img src="./brutalist.jpg" alt="brutalist">
             <span class="movie-title">The Brutalist</span>
@@ -107,7 +109,7 @@
             <img src="./evangeliondeath22.jpg" alt="evangeliondeath22">
             <span class="movie-title">Neon Genesis Evangelion: Death & Rebirth</span>
         </a>
-        <!-- Add 19 more items here -->
+      
     </div>
 </main>
 
