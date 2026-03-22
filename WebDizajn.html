@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hrvatski IGN portal</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f5f5f5;
+        color: #111;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .hero-text {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .hero img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .section img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .card-text h2 {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 16px;
+        background: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+    }
+
+    /* responsive */
+    @media(max-width: 768px) {
+        .section {
+            grid-template-columns: 1fr;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <h1>Hrvatski IGN portal</h1>
+
+    <div class="hero-text">
+        <p>
+            Hrvatski IGN portal je najveći i najrelevantniji gaming portal u regiji.
+            Svakodnevno donosimo vijesti, najave i recenzije novih igara, uz originalne članke i video sadržaj.
+        </p>
+    </div>
+
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db" alt="gaming">
+    </div>
+
+    <!-- Gaming turniri -->
+    <div class="section">
+        <div class="card-text">
+            <h2>Gaming turniri</h2>
+            <p>
+                Zakoračite u svijet natjecanja i testirajte svoje vještine protiv drugih igrača.
+                Osvojite nagrade i pokažite svoje sposobnosti.
+            </p>
+            <a href="#" class="btn">Pridruži nam se!</a>
+        </div>
+        <img src="./GamingTurniri.jpg">
+    </div>
+
+    <!-- Cosplay -->
+    <div class="section">
+        <img src="./cosplayingtourn.jpg">
+        <div class="card-text">
+            <h2>Cosplay natjecanje</h2>
+            <p>
+                Prikažite svoju kreativnost kroz cosplay i osvojite publiku
+                nevjerojatnim izvedbama omiljenih likova.
+            </p>
+            <a href="#" class="btn">Prijavi se!</a>
+        </div>
+    </div>
+
+    <!-- IESF -->
+    <div class="section">
+        <div class="card-text">
+            <h2>Hrvatske Nacionalne Kvalifikacije za IESF</h2>
+            <p>
+                Hrvatski Esport Savez organizira nacionalne kvalifikacije za svjetsko prvenstvo.
+                Pridružite se i izborite svoje mjesto.
+            </p>
+            <a href="#" class="btn">Prijavi se!</a>
+        </div>
+        <img src="./cosplayingtourn.jpg">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© IGN Hrvatska | Više o nama | Email | Support</p>
+    </div>
+
+</div>
+
+</body>
+</html>
