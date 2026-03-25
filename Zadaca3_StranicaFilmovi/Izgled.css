@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-/* Navbar Styling */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -83,14 +83,14 @@ body {
 
 
 
-/* Grid Layout - Fixed 5 Columns */
+
 .content {
     padding: 2rem 4%;
 }
 
 .movie-grid {
     display: grid;
-    /* Forces exactly 5 columns of equal width */
+    
     grid-template-columns: repeat(5, 1fr); 
     gap: 20px;
 }
@@ -100,7 +100,7 @@ body {
     transition: transform 0.3s ease;
 }.movie-card img {
     width: 100%;
-    /* Uses aspect-ratio to keep posters uniform */
+    
     aspect-ratio: 2 / 3; 
     object-fit: cover;
     display: block;
@@ -110,7 +110,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1100px) {
     .movie-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 films per row on tablets */
@@ -131,24 +131,24 @@ body {
         gap: 10px;
     }
 }
-/* Stil za kontejner teksta */
+
 .movie-info {
     padding: 10px 5px;
     text-align: center;
 }
-/* Stil za naslov filma */
+
 .movie-title {
   color: white;
-    padding: 10px 0;      /* Razmak između slike i teksta */
-    text-align: center;   /* Centriranje teksta */
+    padding: 10px 0;    
+    text-align: center;  
     font-size: 1rem;
     font-weight: bold;
 }
-/* Uklanjanje podvlačenja linka za celu karticu */
+
 .movie-card {
    display: flex;
-    flex-direction: column; /* Ređa elemente jedan ispod drugog */
-    text-decoration: none;  /* Uklanja podvlačenje teksta */
+    flex-direction: column; 
+    text-decoration: none;  
     overflow: hidden;
     border-radius: 8px;
     transition: transform 0.3s ease;
