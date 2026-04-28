@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Query primjer</title>
+
+  <style>
+    /* OSNOVNI STIL (mobile-first pristup) */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightgray; /* zadana boja za male ekrane */
+      text-align: center;
+    }
+
+    .box {
+      padding: 20px;
+      margin: 10px;
+      background-color: steelblue;
+      color: white;
+    }
+
+    /* 
+      MEDIA QUERY ZA TABLET
+      Aktivira se kada je širina ekrana VEĆA ili JEDNAKA 768px
+    */
+    @media (min-width: 768px) {
+      body {
+        background-color: lightgreen; /* promjena pozadine */
+      }
+
+      .box {
+        font-size: 20px; /* veći tekst */
+      }
+    }
+
+    /*
+      MEDIA QUERY ZA DESKTOP
+      Aktivira se kada je širina ekrana VEĆA ili JEDNAKA 1024px
+    */
+    @media (min-width: 1024px) {
+      body {
+        background-color: lightblue; /* druga boja za velike ekrane */
+      }
+
+      .box {
+        display: inline-block; /* elementi idu jedan do drugog */
+        width: 30%; /* zauzimaju dio širine */
+      }
+    }
+
+    /*
+      MEDIA QUERY ZA MALE EKRANE (alternativa)
+      Aktivira se kada je širina MANJA od 480px
+    */
+    @media (max-width: 480px) {
+      .box {
+        background-color: tomato; /* druga boja za mobitele */
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Media Query primjer</h1>
+
+  <!-- Jednostavni elementi za prikaz -->
+  <div class="box">Element 1</div>
+  <div class="box">Element 2</div>
+  <div class="box">Element 3</div>
+
+  <!--
+    KAKO TESTIRATI:
+    1. Otvori u browseru
+    2. Smanjuj/povećavaj prozor
+    3. Gledaj kako se mijenja:
+       - boja pozadine
+       - veličina teksta
+       - raspored elemenata
+  -->
+
+</body>
+</html>
