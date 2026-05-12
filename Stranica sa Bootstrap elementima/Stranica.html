@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TF2 Classes</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      background-color:#1f1f1f;
+      color:white;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .hero{
+      background:
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url('https://cdn.cloudflare.steamstatic.com/steam/apps/440/header.jpg');
+
+      background-size:cover;
+      background-position:center;
+      padding:120px 20px;
+      border-radius:20px;
+    }
+
+    .class-card{
+      background:#2b2b2b;
+      border:none;
+      transition:0.3s;
+      color:white;
+      height:100%;
+    }
+
+    .class-card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 0 20px rgba(255,255,255,0.2);
+    }
+
+    .class-card img{
+      height:250px;
+      object-fit:contain;
+      padding:15px;
+    }
+
+    .navbar{
+      background:#111 !important;
+    }
+
+    footer{
+      background:#111;
+    }
+
+    .section-title{
+      color:#f5b041;
+      font-weight:bold;
+    }
+
+    .card-title{
+      font-weight:bold;
+    }
+
+    .scout{ color:#4fc3f7; }
+    .soldier{ color:#ff7675; }
+    .pyro{ color:#ff9f43; }
+    .demo{ color:#9b59b6; }
+    .heavy{ color:#e74c3c; }
+    .engineer{ color:#f1c40f; }
+    .medic{ color:#2ecc71; }
+    .sniper{ color:#55efc4; }
+    .spy{ color:#95a5a6; }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">
+      TF2 Classes
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#classes">Classes</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About TF2</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="container my-4">
+  <div class="hero text-center">
+
+    <h1 class="display-2 fw-bold text-warning">
+      TEAM FORTRESS 2
+    </h1>
+
+    <p class="lead mt-4">
+      Learn about every playable class in TF2
+    </p>
+
+    <a href="#classes" class="btn btn-warning btn-lg mt-3">
+      Explore Classes
+    </a>
+
+  </div>
+</section>
+
+<!-- CLASSES -->
+<section id="classes" class="container py-5">
+
+  <h2 class="text-center section-title mb-5">
+    TF2 Classes
+  </h2>
+
+  <div class="row g-4">
+
+    <!-- Scout -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./fglaun96rb2e1.jpeg">
+
+        <div class="card-body">
+          <h3 class="card-title scout">Scout</h3>
+
+          <p>
+            The Scout is the fastest class in TF2.
+            He uses speed and agility to flank enemies.
+          </p>
+
+          <ul>
+            <li>High speed</li>
+            <li>Double jump</li>
+            <li>Scattergun specialist</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soldier -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./772630cae846746bffb3824e493156f1_03ad395a8c30d2f70e560fbf2191a124.webp">
+
+        <div class="card-body">
+          <h3 class="card-title soldier">Soldier</h3>
+
+          <p>
+            A powerful damage class equipped with rocket launchers.
+          </p>
+
+          <ul>
+            <li>Rocket jumping</li>
+            <li>Strong damage</li>
+            <li>High skill roof</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pyro -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./7e5e5e7c1b532bbd2fd785562e81178a_d1aabd37c123a10b1ccbccaafb06e575.webp">
+
+        <div class="card-body">
+          <h3 class="card-title pyro">Pyro</h3>
+
+          <p>
+            Uses fire attacks and airblast mechanics to control fights.
+          </p>
+
+          <ul>
+            <li>Flamethrower</li>
+            <li>Airblast rockets</li>
+            <li>Spy checking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Demoman -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./demoman.jpg">
+
+        <div class="card-body">
+          <h3 class="card-title demo">Demoman</h3>
+
+          <p>
+            Master of explosives and sticky traps.
+          </p>
+
+          <ul>
+            <li>Stickybomb launcher</li>
+            <li>High burst damage</li>
+            <li>Area denial</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heavy -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./heavy-or-hevy-v0-8angvnxngimd1.webp">
+
+        <div class="card-body">
+          <h3 class="card-title heavy">Heavy</h3>
+
+          <p>
+            The tank of TF2 with massive health and miniguns.
+          </p>
+
+          <ul>
+            <li>Highest HP</li>
+            <li>Strong defense</li>
+            <li>Minigun power</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Engineer -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./am-i-the-only-one-who-thinks-engineer-is-a-creepy-v0-a11ycvebhgoe1.webp">
+
+        <div class="card-body">
+          <h3 class="card-title engineer">Engineer</h3>
+
+          <p>
+            Builds sentries, teleporters and dispensers.
+          </p>
+
+          <ul>
+            <li>Build structures</li>
+            <li>Support teammates</li>
+            <li>Defensive class</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Medic -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./m4ox06jow5ke1.jpeg">
+
+        <div class="card-body">
+          <h3 class="card-title medic">Medic</h3>
+
+          <p>
+            Heals teammates and activates the powerful ÜberCharge.
+          </p>
+
+          <ul>
+            <li>Healing beam</li>
+            <li>ÜberCharge</li>
+            <li>Essential support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sniper -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./sniper.jpg">
+
+        <div class="card-body">
+          <h3 class="card-title sniper">Sniper</h3>
+
+          <p>
+            Eliminates enemies from long range with precision shots.
+          </p>
+
+          <ul>
+            <li>Headshots</li>
+            <li>Long-range combat</li>
+            <li>Pick key targets</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spy -->
+    <div class="col-md-4">
+      <div class="card class-card">
+
+        <img src="./150px-Icon_spy.jpg">
+
+        <div class="card-body">
+          <h3 class="card-title spy">Spy</h3>
+
+          <p>
+            Sneaky assassin who can use disguise and cloak.
+          </p>
+
+          <ul>
+            <li>Backstabs</li>
+            <li>Disguises</li>
+            <li>Destroy engineer nests</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container py-5">
+
+  <div class="bg-dark rounded p-5">
+
+    <h2 class="section-title">
+      About Team Fortress 2
+    </h2>
+
+    <p class="lead">
+      Team Fortress 2 is a legendary multiplayer shooter made by Valve.
+    </p>
+
+    <p>
+      The game features 9 unique classes, each with different abilities,
+      weapons and playstyles. TF2 became famous for its humor,
+      cartoon art style and competitive gameplay.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center text-light py-4 mt-5">
+
+  <h5>TF2 Info Website</h5>
+
+  <p>
+    Team Fortress 2 • 2026
+  </p>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
