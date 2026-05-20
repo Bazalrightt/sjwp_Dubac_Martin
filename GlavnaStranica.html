@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Web Stranica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Moja Web Stranica</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#oMeni">O meni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobiji">Hobiji</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#zadace">Zadaće</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Moja Web Stranica</h1>
+            <p class="lead">Martin Dubac 3.e</p>
+        </div>
+    </section>
+
+
+
+
+    <section id="oMeni" class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./marioshirt.gif" class="img-fluid rounded-circle shadow" alt="Profilna slika">
+            </div>
+
+            <div class="col-md-8">
+                <h2>Martin Dubac</h2>
+
+                <p>
+                    Ovo je stranica koja je napravljena uz pomoć Bootstrap elemenata.Tu se nalaze zadaće.
+                </p>
+
+                <!-- <p>
+                    Jedan od mojih najvećih hobija su video igre.
+                    Najviše volim igrati kompetitivne igre jer razvijaju
+                    brzo razmišljanje, timski rad i strategiju.
+                    Također volim gledati serije i filmove,
+                    posebno znanstvenu fantastiku i akciju.
+                </p>
+
+                <p>
+                    Uz gaming, često istražujem nove trendove u web dizajnu.
+                    Volim izrađivati moderne i responzivne stranice koje dobro
+                    izgledaju na mobitelima i računalima.
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <section id="hobiji" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h4>Programiranje</h4>
+                            <p>
+                                HTML, CSS, JavaScript, Bootstrap, C#, C
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h4>Games</h4>
+                            <p>
+                                Rust
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h4>Serije i Filmovi</h4>
+                            <p>
+                                Trenutno gledam Lord of the Rings:The Fellowship of the Ring
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <section id="zadace" class="container py-5">
+        <h2 class="text-center mb-4">Dosadašnje Zadaće</h2>
+
+        <div class="list-group">
+            <a href="./zadace/zadaca1.html" class="list-group-item list-group-item-action" target="_blank">
+                Zadaća 1 
+            </a>
+
+            <a href="./Zadaca 2/Zadaca2.html" class="list-group-item list-group-item-action" target="_blank">
+                Zadaća 2 
+            </a>
+
+            <a href="./Zadaca3_StranicaFilmovi/MojiFilmovi.html" class="list-group-item list-group-item-action" target="_blank">
+                Zadaća 3 
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                Zadaća 4 
+            </a>
+        </div>
+    </section>
+
+
+
+   <!--   KONTAKT FORMA 
+    <section id="kontakt" class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+                    <div class="contact-box shadow p-4">
+
+                        <h2 class="text-center mb-4">Kontaktirajte Nas</h2>
+
+                        <form method="GET">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Ime</label>
+                                    <input type="text" class="form-control" placeholder="Unesite ime">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="Unesite email">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Datum</label>
+                                <input type="date" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Poruka</label>
+                                <textarea class="form-control" rows="5" placeholder="Unesite poruku"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Pošalji Poruku
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+   
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            © 2026 Moja Osobna Web Stranica | Bootstrap Projekt
+        </p>
+    </footer>
+
+
+
+
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url(https://assets.goal.com/images/v3/blte79805213788a3f2/dc2fc6b385664cd1651295f925a0c3250dbe9d24.jpg?auto=webp&format=pjpg&width=3840&quality=60) center/cover;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card {
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-box {
+    background-color: white;
+    border-radius: 15px;
+}
+
+footer {
+    font-size: 14px;
+}
